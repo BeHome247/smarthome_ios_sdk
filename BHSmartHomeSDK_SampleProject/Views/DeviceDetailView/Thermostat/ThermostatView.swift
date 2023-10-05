@@ -51,7 +51,7 @@ struct ThermostatView: View {
 
             HStack {
                 Picker("Mode", selection: $viewModel.mode) {
-                    ForEach(GatewayThermostatModeOption.allCases, id: \.self) { mode in
+                    ForEach(ThermostatMode.allCases, id: \.self) { mode in
                         Text(mode.rawValue.capitalized)
                     }
                 }

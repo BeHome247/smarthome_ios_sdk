@@ -12,7 +12,7 @@ import BHSmartHomeFramework
     @Published var setpoint = 0
     @Published var setpointCooling = 0
     @Published var setpointHeating = 0
-    @Published var mode: GatewayThermostatModeOption
+    @Published var mode: ThermostatMode
 
     let thermostatName: String
 
@@ -24,7 +24,7 @@ import BHSmartHomeFramework
         self.setpoint = Int(thermostat.setPoint) ?? 0
         self.setpointCooling = Int(thermostat.cool) ?? 0
         self.setpointHeating = Int(thermostat.heat) ?? 0
-        self.mode = GatewayThermostatModeOption(rawValue: thermostat.mode) ?? .auto
+        self.mode = ThermostatMode(rawValue: thermostat.mode) ?? .auto
 
         GatewayManager.shared.add(observer: self)
     }
@@ -43,7 +43,7 @@ import BHSmartHomeFramework
         updateSetpointCooling(temperature: setpointCooling)
     }
 
-    func update(mode: GatewayThermostatModeOption) {
+    func update(mode: ThermostatMode) {
         GatewayManager.shared.send(
             .updateThermostatMode,
             deviceId: thermostatId,

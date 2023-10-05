@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+public enum ThermostatFanMode: String, CaseIterable {
+    case autoLow = "auto_low"
+    case low
+    case off
+}
+
+public enum ThermostatMode: String, CaseIterable {
+    case off, heat, cool, auto
+}

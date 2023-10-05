@@ -6,15 +6,27 @@
 //
 
 import SwiftUI
+import BHSmartHomeFramework
 
 struct LightSwitchView: View {
+    @StateObject var viewModel: LightSwitchViewModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Toggle("\(viewModel.isOn ? "On" : "Off")", isOn: $viewModel.isOn)
+        }
+        .navigationTitle(viewModel.title)
+        .onChange(of: viewModel.isOn) { newValue in
+            viewModel.turn(on: newValue)
+        }
     }
 }
 
 struct LightSwitchView_Previews: PreviewProvider {
     static var previews: some View {
-        LightSwitchView()
+        let light = Switch(id: "", name: "")
+        let viewModel = LightSwitchViewModel(lightSwitch: light)
+
+        LightSwitchView(viewModel: viewModel)
     }
 }

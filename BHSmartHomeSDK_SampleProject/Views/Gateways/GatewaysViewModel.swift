@@ -8,27 +8,20 @@
 import Foundation
 import BHSmartHomeFramework
 
-struct GatewayItem: Identifiable {
-    var id: Int
-
-    init(gateway: Gateway) {
-        self.id = gateway.gatewayId
-    }
-}
-
 @MainActor class GatewaysViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @Published var domain = ""
     @Published var shouldShowLoadingIndicator = false
-    @Published var gatewayItems: [GatewayItem] = []
-
-    private var gateways: [Gateway] = []
+    @Published var shouldShowDevicesView = false
+    @Published var isConnectingToGateway = false
+    @Published var shouldShowConnectionError = false
+    @Published var shouldShowInvalidLoginError = false
+    @Published var gateways: [Gateway] = []
 
     init() {
-        GatewayManager.shared.start(apiKey: "12345678")
+        GatewayManager.shared.start(apiKey: "740a784c-62bf-11ee-8c99-0242ac120002")
 
-        // Register as an observer to receive notifications from the Gateway
         GatewayManager.shared.add(observer: self)
     }
 
@@ -40,30 +33,53 @@ struct GatewayItem: Identifiable {
         guard !email.isEmpty && !password.isEmpty && !domain.isEmpty else {
             return
         }
-        
+
+        shouldShowInvalidLoginError = false
         shouldShowLoadingIndicator = true
-        gateways = await GatewayManager.shared.fetchGateways(email: email, password: password, domain: domain)
-        gatewayItems = gateways.map { GatewayItem(gateway: $0) }
+
+        gateways = await GatewayManager.shared.fetchGateways(
+            email: email,
+            password: password,
+            domain: domain
+        )
+
         shouldShowLoadingIndicator = false
     }
 
-    func connect(gatewayItem: GatewayItem) async {
-        guard let gateway = gateways.first(where: {
-            $0.gatewayId == gatewayItem.id
-        }) else {
-            return
-        }
+    func connect(gateway: Gateway) async {
+        shouldShowConnectionError = false
+        isConnectingToGateway = true
 
         await GatewayManager.shared.connect(gateway)
+    }
+
+    func disconnect() {
+        GatewayManager.shared.disconnect()
+
+        gateways.removeAll()
     }
 }
 
 extension GatewaysViewModel: GatewayObserver {
     func notify(_ notification: BHSmartHomeFramework.GatewayUpdateNotification) {
-
+        switch notification.operation {
+        case .connect:
+            shouldShowDevicesView = true
+            isConnectingToGateway = false
+        default:
+            break
+        }
     }
 
     func notify(error: BHSmartHomeFramework.GatewayError) {
-
+        switch error {
+        case .invalidCredentials:
+            shouldShowInvalidLoginError = true
+        case .connectionError:
+            isConnectingToGateway = false
+            shouldShowConnectionError = true
+        default:
+            break
+        }
     }
 }

@@ -1,0 +1,4 @@
+framework module BHSmartHomeFramework {
+  header "BHSmartHomeFramework-Swift.h"
+  requires objc
+}

@@ -11,7 +11,7 @@ import SwiftUI
 struct BHSmartHomeSDK_SampleProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GatewaysView()
         }
     }
 }

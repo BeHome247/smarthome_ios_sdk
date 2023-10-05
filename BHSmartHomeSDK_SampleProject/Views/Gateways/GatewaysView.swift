@@ -36,28 +36,60 @@ struct GatewaysView: View {
                 }
                 .padding(.top, 24)
 
-                Text("Available Gateways (tap one to connect)")
-                    .bold()
-                    .padding(.top, 48)
-                List(viewModel.gatewayItems) { item in
-                    HStack {
-                        Text("ID \(item.id)")
+                Button("Disconnect") {
+                    viewModel.disconnect()
+                }
+
+                if !viewModel.gateways.isEmpty {
+                    HStack(alignment: .center) {
+                        Text("Available Gateways (tap to connect)")
+                            .bold()
+                            .padding(.top, 48)
                         Spacer()
-                        Image(systemName: "arrow.right")
+                        if viewModel.isConnectingToGateway {
+                            ProgressView()
+                        }
                     }
-                    .onTapGesture {
+                }
+
+                List(viewModel.gateways) { gateway in
+                    Button {
                         Task {
-                            await viewModel.connect(gatewayItem: item)
+                            await viewModel.connect(gateway: gateway)
+                        }
+                    } label: {
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text("ID: \(gateway.id.description)")
+                                Text("Status: \(gateway.status ?? "UNKNOWN")")
+                                Text("Battery Level: \(gateway.batteryLevel)")
+                            }
+                            Spacer()
+                            Image(systemName: "arrow.right")
                         }
                     }
                 }
                 .listStyle(.plain)
+
+                if viewModel.shouldShowConnectionError {
+                    Text("Connection error. Check that the gateway is connected.")
+                        .foregroundColor(.red)
+                }
+
+                if viewModel.shouldShowInvalidLoginError {
+                    Text("Invalid credentials.")
+                        .foregroundColor(.red)
+                }
+
+
             }
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
             .navigationTitle("Fetch Gateways")
+            .navigationDestination(isPresented: $viewModel.shouldShowDevicesView) {
+                DevicesView()
+            }
         }
-
     }
 }
 

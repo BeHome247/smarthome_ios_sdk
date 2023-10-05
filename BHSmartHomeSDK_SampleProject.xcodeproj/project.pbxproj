@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30DF70B62AC32C9F00290C92 /* BHSmartHomeSDK_SampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DF70B52AC32C9F00290C92 /* BHSmartHomeSDK_SampleProjectApp.swift */; };
-		30DF70B82AC32C9F00290C92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DF70B72AC32C9F00290C92 /* ContentView.swift */; };
-		30DF70BA2AC32CA000290C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DF70B92AC32CA000290C92 /* Assets.xcassets */; };
-		30DF70BD2AC32CA000290C92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DF70BC2AC32CA000290C92 /* Preview Assets.xcassets */; };
+		30BF8E3D2ACF446800C8DBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BF8E212ACF446800C8DBCE /* Assets.xcassets */; };
+		30BF8E3E2ACF446800C8DBCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BF8E232ACF446800C8DBCE /* Preview Assets.xcassets */; };
+		30BF8E3F2ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E242ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift */; };
+		30BF8E402ACF446800C8DBCE /* ConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E272ACF446800C8DBCE /* ConnectionViewModel.swift */; };
+		30BF8E412ACF446800C8DBCE /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E282ACF446800C8DBCE /* ConnectionView.swift */; };
+		30BF8E422ACF446800C8DBCE /* LockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E2B2ACF446800C8DBCE /* LockViewModel.swift */; };
+		30BF8E432ACF446800C8DBCE /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E2C2ACF446800C8DBCE /* LockView.swift */; };
+		30BF8E442ACF446800C8DBCE /* ThermostatMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E2E2ACF446800C8DBCE /* ThermostatMode.swift */; };
+		30BF8E452ACF446800C8DBCE /* ThermostatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E2F2ACF446800C8DBCE /* ThermostatViewModel.swift */; };
+		30BF8E462ACF446800C8DBCE /* ThermostatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E302ACF446800C8DBCE /* ThermostatView.swift */; };
+		30BF8E472ACF446800C8DBCE /* LightSwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E322ACF446800C8DBCE /* LightSwitchViewModel.swift */; };
+		30BF8E482ACF446800C8DBCE /* LightSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E332ACF446800C8DBCE /* LightSwitchView.swift */; };
+		30BF8E492ACF446800C8DBCE /* DimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E352ACF446800C8DBCE /* DimmerView.swift */; };
+		30BF8E4A2ACF446800C8DBCE /* DimmerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E362ACF446800C8DBCE /* DimmerViewModel.swift */; };
+		30BF8E4B2ACF446800C8DBCE /* GatewaysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E382ACF446800C8DBCE /* GatewaysViewModel.swift */; };
+		30BF8E4C2ACF446800C8DBCE /* GatewaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E392ACF446800C8DBCE /* GatewaysView.swift */; };
+		30BF8E4D2ACF446800C8DBCE /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E3B2ACF446800C8DBCE /* DevicesViewModel.swift */; };
+		30BF8E4E2ACF446800C8DBCE /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */; };
+		30BF8E712ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */; };
+		30BF8E722ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		30BF8E6F2ACF476C00C8DBCE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30BF8E722ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		30BF8E212ACF446800C8DBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BF8E232ACF446800C8DBCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30BF8E242ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BHSmartHomeSDK_SampleProjectApp.swift; sourceTree = "<group>"; };
+		30BF8E272ACF446800C8DBCE /* ConnectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewModel.swift; sourceTree = "<group>"; };
+		30BF8E282ACF446800C8DBCE /* ConnectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		30BF8E2B2ACF446800C8DBCE /* LockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockViewModel.swift; sourceTree = "<group>"; };
+		30BF8E2C2ACF446800C8DBCE /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		30BF8E2E2ACF446800C8DBCE /* ThermostatMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatMode.swift; sourceTree = "<group>"; };
+		30BF8E2F2ACF446800C8DBCE /* ThermostatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatViewModel.swift; sourceTree = "<group>"; };
+		30BF8E302ACF446800C8DBCE /* ThermostatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatView.swift; sourceTree = "<group>"; };
+		30BF8E322ACF446800C8DBCE /* LightSwitchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSwitchViewModel.swift; sourceTree = "<group>"; };
+		30BF8E332ACF446800C8DBCE /* LightSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSwitchView.swift; sourceTree = "<group>"; };
+		30BF8E352ACF446800C8DBCE /* DimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmerView.swift; sourceTree = "<group>"; };
+		30BF8E362ACF446800C8DBCE /* DimmerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmerViewModel.swift; sourceTree = "<group>"; };
+		30BF8E382ACF446800C8DBCE /* GatewaysViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatewaysViewModel.swift; sourceTree = "<group>"; };
+		30BF8E392ACF446800C8DBCE /* GatewaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatewaysView.swift; sourceTree = "<group>"; };
+		30BF8E3B2ACF446800C8DBCE /* DevicesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BHSmartHomeFramework.xcframework; path = Framework/BHSmartHomeFramework.xcframework; sourceTree = "<group>"; };
 		30DF70B22AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHSmartHomeSDK_SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30DF70B52AC32C9F00290C92 /* BHSmartHomeSDK_SampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHSmartHomeSDK_SampleProjectApp.swift; sourceTree = "<group>"; };
-		30DF70B72AC32C9F00290C92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		30DF70B92AC32CA000290C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30DF70BC2AC32CA000290C92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +71,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BF8E712ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30BF8E202ACF446800C8DBCE /* BHSmartHomeSDK_SampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E212ACF446800C8DBCE /* Assets.xcassets */,
+				30BF8E222ACF446800C8DBCE /* Preview Content */,
+				30BF8E242ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift */,
+				30BF8E252ACF446800C8DBCE /* Views */,
+			);
+			path = BHSmartHomeSDK_SampleProject;
+			sourceTree = "<group>";
+		};
+		30BF8E222ACF446800C8DBCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E232ACF446800C8DBCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30BF8E252ACF446800C8DBCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E262ACF446800C8DBCE /* Connection */,
+				30BF8E292ACF446800C8DBCE /* DeviceDetailView */,
+				30BF8E372ACF446800C8DBCE /* Gateways */,
+				30BF8E3A2ACF446800C8DBCE /* Devices */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30BF8E262ACF446800C8DBCE /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E272ACF446800C8DBCE /* ConnectionViewModel.swift */,
+				30BF8E282ACF446800C8DBCE /* ConnectionView.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		30BF8E292ACF446800C8DBCE /* DeviceDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E2A2ACF446800C8DBCE /* Lock */,
+				30BF8E2D2ACF446800C8DBCE /* Thermostat */,
+				30BF8E312ACF446800C8DBCE /* Switch */,
+				30BF8E342ACF446800C8DBCE /* Dimmer */,
+			);
+			path = DeviceDetailView;
+			sourceTree = "<group>";
+		};
+		30BF8E2A2ACF446800C8DBCE /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E2B2ACF446800C8DBCE /* LockViewModel.swift */,
+				30BF8E2C2ACF446800C8DBCE /* LockView.swift */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		30BF8E2D2ACF446800C8DBCE /* Thermostat */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E2E2ACF446800C8DBCE /* ThermostatMode.swift */,
+				30BF8E2F2ACF446800C8DBCE /* ThermostatViewModel.swift */,
+				30BF8E302ACF446800C8DBCE /* ThermostatView.swift */,
+			);
+			path = Thermostat;
+			sourceTree = "<group>";
+		};
+		30BF8E312ACF446800C8DBCE /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E322ACF446800C8DBCE /* LightSwitchViewModel.swift */,
+				30BF8E332ACF446800C8DBCE /* LightSwitchView.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		30BF8E342ACF446800C8DBCE /* Dimmer */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E352ACF446800C8DBCE /* DimmerView.swift */,
+				30BF8E362ACF446800C8DBCE /* DimmerViewModel.swift */,
+			);
+			path = Dimmer;
+			sourceTree = "<group>";
+		};
+		30BF8E372ACF446800C8DBCE /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E382ACF446800C8DBCE /* GatewaysViewModel.swift */,
+				30BF8E392ACF446800C8DBCE /* GatewaysView.swift */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		30BF8E3A2ACF446800C8DBCE /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E3B2ACF446800C8DBCE /* DevicesViewModel.swift */,
+				30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
 		30DF70A92AC32C9F00290C92 = {
 			isa = PBXGroup;
 			children = (
-				30DF70B42AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject */,
+				30BF8E202ACF446800C8DBCE /* BHSmartHomeSDK_SampleProject */,
 				30DF70B32AC32C9F00290C92 /* Products */,
+				30DF70C82AC32D3A00290C92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,23 +200,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30DF70B42AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject */ = {
+		30DF70C82AC32D3A00290C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30DF70B52AC32C9F00290C92 /* BHSmartHomeSDK_SampleProjectApp.swift */,
-				30DF70B72AC32C9F00290C92 /* ContentView.swift */,
-				30DF70B92AC32CA000290C92 /* Assets.xcassets */,
-				30DF70BB2AC32CA000290C92 /* Preview Content */,
+				30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */,
 			);
-			path = BHSmartHomeSDK_SampleProject;
-			sourceTree = "<group>";
-		};
-		30DF70BB2AC32CA000290C92 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				30DF70BC2AC32CA000290C92 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +218,15 @@
 				30DF70AE2AC32C9F00290C92 /* Sources */,
 				30DF70AF2AC32C9F00290C92 /* Frameworks */,
 				30DF70B02AC32C9F00290C92 /* Resources */,
+				30BF8E6F2ACF476C00C8DBCE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BHSmartHomeSDK_SampleProject;
+			packageProductDependencies = (
+			);
 			productName = BHSmartHomeSDK_SampleProject;
 			productReference = 30DF70B22AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +255,8 @@
 				Base,
 			);
 			mainGroup = 30DF70A92AC32C9F00290C92;
+			packageReferences = (
+			);
 			productRefGroup = 30DF70B32AC32C9F00290C92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DF70BD2AC32CA000290C92 /* Preview Assets.xcassets in Resources */,
-				30DF70BA2AC32CA000290C92 /* Assets.xcassets in Resources */,
+				30BF8E3E2ACF446800C8DBCE /* Preview Assets.xcassets in Resources */,
+				30BF8E3D2ACF446800C8DBCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +283,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DF70B82AC32C9F00290C92 /* ContentView.swift in Sources */,
-				30DF70B62AC32C9F00290C92 /* BHSmartHomeSDK_SampleProjectApp.swift in Sources */,
+				30BF8E402ACF446800C8DBCE /* ConnectionViewModel.swift in Sources */,
+				30BF8E4D2ACF446800C8DBCE /* DevicesViewModel.swift in Sources */,
+				30BF8E4C2ACF446800C8DBCE /* GatewaysView.swift in Sources */,
+				30BF8E492ACF446800C8DBCE /* DimmerView.swift in Sources */,
+				30BF8E412ACF446800C8DBCE /* ConnectionView.swift in Sources */,
+				30BF8E3F2ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift in Sources */,
+				30BF8E472ACF446800C8DBCE /* LightSwitchViewModel.swift in Sources */,
+				30BF8E452ACF446800C8DBCE /* ThermostatViewModel.swift in Sources */,
+				30BF8E4A2ACF446800C8DBCE /* DimmerViewModel.swift in Sources */,
+				30BF8E432ACF446800C8DBCE /* LockView.swift in Sources */,
+				30BF8E4E2ACF446800C8DBCE /* DevicesView.swift in Sources */,
+				30BF8E4B2ACF446800C8DBCE /* GatewaysViewModel.swift in Sources */,
+				30BF8E462ACF446800C8DBCE /* ThermostatView.swift in Sources */,
+				30BF8E422ACF446800C8DBCE /* LockViewModel.swift in Sources */,
+				30BF8E442ACF446800C8DBCE /* ThermostatMode.swift in Sources */,
+				30BF8E482ACF446800C8DBCE /* LightSwitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +430,8 @@
 				DEVELOPMENT_TEAM = VL5TRW96TH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BHSmartHomeSDK-SampleProject-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BH IoT Sample";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +461,8 @@
 				DEVELOPMENT_TEAM = VL5TRW96TH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BHSmartHomeSDK-SampleProject-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BH IoT Sample";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
