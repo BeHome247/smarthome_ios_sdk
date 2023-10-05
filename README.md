@@ -1,6 +1,6 @@
 ## Introduction
 
-The `BHSmartHomeFramework`` enables an app to communicate with gateways and devices tied to the provided credentials.
+The `BHSmartHomeFramework` enables an app to communicate with gateways and devices tied to the provided credentials.
 
 ## Sample application
 
@@ -18,7 +18,7 @@ The `BHSmartHomeSDK_SampleProject` project offers a sample app demonstrating how
 
 To install the `BHSmartHomeFramework`, you must manually add it to your Xcode project. Choose your target, then drag the .xcframework file into the **Frameworks, Libraries, and Embedded Content section.**
 
-IMAGE
+<img width="1127" alt="Screenshot 2023-10-05 at 4 48 12 PM" src="https://github.com/BeHome247/smarthome_ios_sdk/assets/1329332/8992abd4-94fc-418e-823a-e369536b11ef">
 
 ## Getting Started
 
