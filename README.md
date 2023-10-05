@@ -140,7 +140,7 @@ extension MyViewModel: GatewayObserver {
 }
 ```
 
-A `GatewayUpdateNotification`` embodies three attributes:
+A `GatewayUpdateNotification` embodies three attributes:
 
 - `operation`: Defines the operation relevant to the notification. As an example, activating a switch results in a .turnOn operation.
 - `deviceId`: Denotes the device that initiated the notification. Referring back to the previous example, this would be the switch's ID. This may be nil if the alert doesn't relate to a specific device.
