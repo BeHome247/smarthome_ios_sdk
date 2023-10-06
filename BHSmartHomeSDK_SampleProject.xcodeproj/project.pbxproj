@@ -25,18 +25,20 @@
 		30BF8E4C2ACF446800C8DBCE /* GatewaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E392ACF446800C8DBCE /* GatewaysView.swift */; };
 		30BF8E4D2ACF446800C8DBCE /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E3B2ACF446800C8DBCE /* DevicesViewModel.swift */; };
 		30BF8E4E2ACF446800C8DBCE /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */; };
-		30BF8E712ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */; };
-		30BF8E722ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		30BF8E872AD0466300C8DBCE /* MotionSensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E862AD0466300C8DBCE /* MotionSensorView.swift */; };
+		30BF8E892AD0466C00C8DBCE /* MotionSensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E882AD0466C00C8DBCE /* MotionSensorViewModel.swift */; };
+		30BF8E8E2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */; };
+		30BF8E8F2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		30BF8E6F2ACF476C00C8DBCE /* Embed Frameworks */ = {
+		30BF8E8C2AD051DB00C8DBCE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				30BF8E722ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */,
+				30BF8E8F2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +64,9 @@
 		30BF8E392ACF446800C8DBCE /* GatewaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatewaysView.swift; sourceTree = "<group>"; };
 		30BF8E3B2ACF446800C8DBCE /* DevicesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
 		30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
-		30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BHSmartHomeFramework.xcframework; path = Framework/BHSmartHomeFramework.xcframework; sourceTree = "<group>"; };
+		30BF8E862AD0466300C8DBCE /* MotionSensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorView.swift; sourceTree = "<group>"; };
+		30BF8E882AD0466C00C8DBCE /* MotionSensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorViewModel.swift; sourceTree = "<group>"; };
+		30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BHSmartHomeFramework.xcframework; path = Framework/BHSmartHomeFramework.xcframework; sourceTree = "<group>"; };
 		30DF70B22AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHSmartHomeSDK_SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BF8E712ACF47DD00C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */,
+				30BF8E8E2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +128,7 @@
 				30BF8E2D2ACF446800C8DBCE /* Thermostat */,
 				30BF8E312ACF446800C8DBCE /* Switch */,
 				30BF8E342ACF446800C8DBCE /* Dimmer */,
+				30BF8E852AD0463B00C8DBCE /* MotionSensor */,
 			);
 			path = DeviceDetailView;
 			sourceTree = "<group>";
@@ -183,6 +188,15 @@
 			path = Devices;
 			sourceTree = "<group>";
 		};
+		30BF8E852AD0463B00C8DBCE /* MotionSensor */ = {
+			isa = PBXGroup;
+			children = (
+				30BF8E862AD0466300C8DBCE /* MotionSensorView.swift */,
+				30BF8E882AD0466C00C8DBCE /* MotionSensorViewModel.swift */,
+			);
+			path = MotionSensor;
+			sourceTree = "<group>";
+		};
 		30DF70A92AC32C9F00290C92 = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +217,7 @@
 		30DF70C82AC32D3A00290C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30BF8E702ACF47DC00C8DBCE /* BHSmartHomeFramework.xcframework */,
+				30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,7 +232,7 @@
 				30DF70AE2AC32C9F00290C92 /* Sources */,
 				30DF70AF2AC32C9F00290C92 /* Frameworks */,
 				30DF70B02AC32C9F00290C92 /* Resources */,
-				30BF8E6F2ACF476C00C8DBCE /* Embed Frameworks */,
+				30BF8E8C2AD051DB00C8DBCE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +299,7 @@
 			files = (
 				30BF8E402ACF446800C8DBCE /* ConnectionViewModel.swift in Sources */,
 				30BF8E4D2ACF446800C8DBCE /* DevicesViewModel.swift in Sources */,
+				30BF8E872AD0466300C8DBCE /* MotionSensorView.swift in Sources */,
 				30BF8E4C2ACF446800C8DBCE /* GatewaysView.swift in Sources */,
 				30BF8E492ACF446800C8DBCE /* DimmerView.swift in Sources */,
 				30BF8E412ACF446800C8DBCE /* ConnectionView.swift in Sources */,
@@ -294,6 +309,7 @@
 				30BF8E4A2ACF446800C8DBCE /* DimmerViewModel.swift in Sources */,
 				30BF8E432ACF446800C8DBCE /* LockView.swift in Sources */,
 				30BF8E4E2ACF446800C8DBCE /* DevicesView.swift in Sources */,
+				30BF8E892AD0466C00C8DBCE /* MotionSensorViewModel.swift in Sources */,
 				30BF8E4B2ACF446800C8DBCE /* GatewaysViewModel.swift in Sources */,
 				30BF8E462ACF446800C8DBCE /* ThermostatView.swift in Sources */,
 				30BF8E422ACF446800C8DBCE /* LockViewModel.swift in Sources */,

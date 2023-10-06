@@ -46,8 +46,10 @@ extension LockViewModel: GatewayObserver {
         switch notification.operation {
         case .lock:
             print("Locked")
+            isLocked = true
         case .unlock:
             print("Unlocked")
+            isLocked = false
         case .fetchCodes:
             codes = notification.data as? [Pincode] ?? []
         default:

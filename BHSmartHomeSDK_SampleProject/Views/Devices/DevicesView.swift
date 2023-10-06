@@ -69,6 +69,9 @@ struct DevicesView: View {
         case .lightSwitch(let lightSwitch):
             let viewModel = LightSwitchViewModel(lightSwitch: lightSwitch)
             LightSwitchView(viewModel: viewModel)
+        case .motionSensor(let sensor):
+            let viewModel = MotionSensorViewModel(motionSensor: sensor)
+            MotionSensorView(viewModel: viewModel)
         default:
             Text("View not implemented for this device.")
 

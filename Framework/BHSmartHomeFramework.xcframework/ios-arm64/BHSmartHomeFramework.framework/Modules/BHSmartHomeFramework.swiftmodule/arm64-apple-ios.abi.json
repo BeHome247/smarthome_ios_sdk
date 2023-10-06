@@ -13401,6 +13401,39 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(id:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MotionSensor",
+                "printedName": "BHSmartHomeFramework.MotionSensor",
+                "usr": "s:20BHSmartHomeFramework12MotionSensorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20BHSmartHomeFramework12MotionSensorC2id4nameACSS_SStcfc",
+            "mangledName": "$s20BHSmartHomeFramework12MotionSensorC2id4nameACSS_SStcfc",
+            "moduleName": "BHSmartHomeFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -13462,7 +13495,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -15188,6 +15220,48 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4121,
+      "length": 8,
+      "value": "\"msg_id\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4157,
+      "length": 14,
+      "value": "\"msg_subclass\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4121,
+      "length": 8,
+      "value": "\"msg_id\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4157,
+      "length": 14,
+      "value": "\"msg_subclass\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 5,
+      "value": "\"_id\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 5,
+      "value": "\"_id\""
+    },
+    {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/API\/APIManager.swift",
       "kind": "StringLiteral",
       "offset": 1214,
@@ -15547,784 +15621,819 @@
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2565,
       "length": 20,
       "value": "\"hub.item.value.set\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2643,
+      "offset": 2628,
       "length": 31,
       "value": "\"hub.item.dictionary.value.add\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2728,
+      "offset": 2713,
       "length": 31,
       "value": "\"hub.item.dictionary.value.set\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2829,
+      "offset": 2814,
       "length": 34,
       "value": "\"hub.item.dictionary.value.remove\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 2900,
       "length": 17,
       "value": "\"hub.network.get\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 2981,
+      "offset": 2966,
       "length": 29,
       "value": "\"hub.network.wifi.scan.start\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 3043,
       "length": 28,
       "value": "\"hub.network.wifi.scan.stop\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3118,
       "length": 30,
       "value": "\"hub.network.wifi.try_connect\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "Dictionary",
-      "offset": 3438,
-      "length": 3,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 3196,
+      "length": 22,
+      "value": "\"hub.device.armed.set\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3515,
+      "offset": 3540,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3530,
+      "offset": 3555,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3564,
       "length": 9,
       "value": "\"secured\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
+      "offset": 3625,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3607,
+      "offset": 3640,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 3649,
       "length": 11,
       "value": "\"unsecured\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 3740,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 3737,
+      "offset": 3782,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3775,
+      "offset": 3828,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3790,
+      "offset": 3843,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 3983,
+      "offset": 4052,
       "length": 10,
       "value": "\"setpoint\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 4025,
+      "offset": 4098,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4063,
+      "offset": 4144,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4078,
+      "offset": 4159,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4173,
+      "offset": 4262,
       "length": 6,
       "value": "\"mode\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 4211,
+      "offset": 4304,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 4350,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4264,
+      "offset": 4365,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4339,
+      "offset": 4448,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4473,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 4402,
+      "offset": 4515,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4457,
+      "offset": 4582,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4488,
+      "offset": 4617,
       "length": 9,
       "value": "\"element\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4500,
+      "offset": 4629,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4508,
+      "offset": 4637,
       "length": 12,
       "value": "\"dictionary\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4522,
+      "offset": 4651,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4532,
+      "offset": 4661,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4546,
+      "offset": 4675,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 4793,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 4688,
+      "offset": 4833,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4726,
+      "offset": 4879,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4741,
+      "offset": 4894,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4820,
+      "offset": 4981,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4854,
+      "offset": 5015,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4888,
+      "offset": 5049,
       "length": 4,
       "value": "\"to\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 4935,
+      "offset": 5100,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 4990,
+      "offset": 5167,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 5202,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5049,
+      "offset": 5234,
       "length": 9,
       "value": "\"element\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5061,
+      "offset": 5246,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5069,
+      "offset": 5254,
       "length": 12,
       "value": "\"dictionary\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5083,
+      "offset": 5268,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5094,
+      "offset": 5279,
       "length": 15,
       "value": "\"startDateTime\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5117,
+      "offset": 5302,
       "length": 14,
       "value": "\"stopDateTime\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5241,
+      "offset": 5438,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 5277,
+      "offset": 5478,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5315,
+      "offset": 5524,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5330,
+      "offset": 5539,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5396,
+      "offset": 5613,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 5443,
+      "offset": 5664,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5481,
+      "offset": 5710,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 5725,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5554,
+      "offset": 5791,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5806,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "BooleanLiteral",
-      "offset": 5578,
+      "offset": 5815,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5627,
+      "offset": 5872,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5642,
+      "offset": 5887,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "BooleanLiteral",
-      "offset": 5651,
+      "offset": 5896,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5741,
+      "offset": 5994,
       "length": 13,
       "value": "\"interfaceId\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5756,
+      "offset": 6009,
       "length": 7,
       "value": "\"wlan0\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 6090,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5877,
+      "offset": 6138,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 5919,
+      "offset": 6184,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5957,
+      "offset": 6230,
       "length": 13,
       "value": "\"interfaceId\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5972,
+      "offset": 6245,
       "length": 7,
       "value": "\"wlan0\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5981,
+      "offset": 6254,
       "length": 9,
       "value": "\"network\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 5993,
+      "offset": 6266,
       "length": 6,
       "value": "\"ssid\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 6071,
+      "offset": 6348,
       "length": 7,
       "value": "\"bssid\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 6151,
+      "offset": 6432,
       "length": 12,
       "value": "\"encryption\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6526,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 6308,
+      "offset": 6605,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 6408,
+      "offset": 6755,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6537,
-      "length": 13,
-      "value": "\"interfaceId\""
+      "kind": "BooleanLiteral",
+      "offset": 6817,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6824,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 6552,
-      "length": 7,
-      "value": "\"wlan0\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6625,
-      "length": 9,
-      "value": "\"network\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6673,
-      "length": 10,
-      "value": "\"password\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "Dictionary",
-      "offset": 6715,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6753,
-      "length": 13,
-      "value": "\"interfaceId\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6768,
-      "length": 7,
-      "value": "\"wlan0\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6777,
-      "length": 9,
-      "value": "\"network\""
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
-      "kind": "StringLiteral",
-      "offset": 6789,
-      "length": 6,
-      "value": "\"ssid\""
+      "offset": 6850,
+      "length": 5,
+      "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
       "offset": 6867,
       "length": 7,
+      "value": "\"armed\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "Dictionary",
+      "offset": 6983,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7112,
+      "length": 13,
+      "value": "\"interfaceId\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7127,
+      "length": 7,
+      "value": "\"wlan0\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7200,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7248,
+      "length": 10,
+      "value": "\"password\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "Dictionary",
+      "offset": 7290,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7328,
+      "length": 13,
+      "value": "\"interfaceId\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7343,
+      "length": 7,
+      "value": "\"wlan0\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7352,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7364,
+      "length": 6,
+      "value": "\"ssid\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
+      "kind": "StringLiteral",
+      "offset": 7442,
+      "length": 7,
       "value": "\"bssid\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 6947,
+      "offset": 7522,
       "length": 12,
       "value": "\"encryption\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7037,
+      "offset": 7612,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 7104,
+      "offset": 7679,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7255,
+      "offset": 7830,
       "length": 16,
       "value": "\"hub.items.list\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "Dictionary",
-      "offset": 7313,
+      "offset": 7888,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7320,
+      "offset": 7895,
       "length": 11,
       "value": "\"deviceIds\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7383,
+      "offset": 7958,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7400,
+      "offset": 7975,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7418,
+      "offset": 7993,
       "length": 8,
       "value": "\"params\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7644,
+      "offset": 8219,
       "length": 15,
       "value": "\"loginUserMios\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7695,
+      "offset": 8270,
       "length": 9,
       "value": "\"MMSAuth\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7728,
+      "offset": 8303,
       "length": 12,
       "value": "\"MMSAuthSig\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7765,
+      "offset": 8340,
       "length": 11,
       "value": "\"PK_Device\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7838,
+      "offset": 8413,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7855,
+      "offset": 8430,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 7873,
+      "offset": 8448,
       "length": 8,
       "value": "\"params\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 8064,
+      "offset": 8639,
       "length": 10,
       "value": "\"register\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 8097,
+      "offset": 8672,
       "length": 8,
       "value": "\"serial\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 8157,
+      "offset": 8732,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 8174,
+      "offset": 8749,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloMessageFormat.swift",
       "kind": "StringLiteral",
-      "offset": 8192,
+      "offset": 8767,
       "length": 8,
       "value": "\"params\""
     },
@@ -16499,182 +16608,189 @@
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 8086,
+      "offset": 8271,
       "length": 37,
       "value": "\"cloud.error.mms_autha_token_expired\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 8174,
+      "offset": 8359,
       "length": 37,
       "value": "\"cloud.error.controller_not_selected\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 8213,
+      "offset": 8398,
       "length": 38,
       "value": "\"cloud.error.controller_not_connected\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 8445,
+      "offset": 8630,
       "length": 12,
       "value": "\"registered\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "Array",
-      "offset": 8594,
+      "offset": 8779,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 10149,
+      "offset": 10334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 10212,
+      "offset": 10397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 10279,
+      "offset": 10464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 10859,
+      "offset": 10994,
+      "length": 20,
+      "value": "\"hub.device.updated\""
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
+      "kind": "StringLiteral",
+      "offset": 11559,
       "length": 16,
       "value": "\"lock_operation\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 10918,
+      "offset": 11618,
       "length": 21,
       "value": "\"rf_unlock_operation\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 10969,
+      "offset": 11669,
       "length": 25,
       "value": "\"manual_unlock_operation\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11105,
+      "offset": 11805,
       "length": 8,
       "value": "\"dimmer\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11152,
+      "offset": 11852,
       "length": 8,
       "value": "\"switch\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11290,
+      "offset": 11990,
       "length": 17,
       "value": "\"thermostat_mode\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11363,
+      "offset": 12063,
       "length": 21,
       "value": "\"thermostat_fan_mode\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11443,
+      "offset": 12143,
       "length": 29,
       "value": "\"thermostat_setpoint_cooling\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11539,
+      "offset": 12239,
       "length": 29,
       "value": "\"thermostat_setpoint_heating\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11635,
+      "offset": 12335,
       "length": 12,
       "value": "\"user_codes\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11694,
+      "offset": 12394,
       "length": 7,
       "value": "\"added\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11823,
+      "offset": 12523,
       "length": 9,
       "value": "\"removed\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11921,
+      "offset": 12621,
       "length": 27,
       "value": "\"daily_user_code_intervals\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 11995,
+      "offset": 12695,
       "length": 7,
       "value": "\"added\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 12036,
+      "offset": 12736,
       "length": 9,
       "value": "\"updated\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 12143,
+      "offset": 12843,
       "length": 9,
       "value": "\"removed\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 12444,
+      "offset": 13144,
       "length": 21,
       "value": "\"user_code_operation\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/EzloGatewayConnection.swift",
       "kind": "StringLiteral",
-      "offset": 12538,
+      "offset": 13238,
       "length": 48,
       "value": "\"new_user_code_not_added_due_to_duplicated_code\""
     },
@@ -18690,77 +18806,84 @@
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1199,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1199,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1454,
       "length": 10,
       "value": "\"protocol\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1472,
+      "offset": 1511,
       "length": 16,
       "value": "\"firmware.stack\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1454,
       "length": 10,
       "value": "\"protocol\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1472,
+      "offset": 1511,
       "length": 16,
       "value": "\"firmware.stack\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2208,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2190,
+      "offset": 2319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2413,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2396,
+      "offset": 2525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2625,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Gateway\/Manufacturer\/Ezlo\/Response\/EzloItemsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
+      "offset": 2725,
       "length": 2,
       "value": "\"\""
     },
@@ -19845,98 +19968,91 @@
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "BooleanLiteral",
-      "offset": 22107,
+      "offset": 21867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22538,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22542,
-      "length": 1,
-      "value": "0"
+      "kind": "BooleanLiteral",
+      "offset": 22070,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 22661,
+      "offset": 22565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 22686,
+      "offset": 22590,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "IntegerLiteral",
-      "offset": 22884,
+      "offset": 22788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "BooleanLiteral",
-      "offset": 22908,
+      "offset": 22812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "BooleanLiteral",
-      "offset": 22948,
+      "offset": 22852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 23150,
+      "offset": 23054,
       "length": 16,
       "value": "\"batteryPowered\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "StringLiteral",
-      "offset": 23150,
+      "offset": 23054,
       "length": 16,
       "value": "\"batteryPowered\""
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "BooleanLiteral",
-      "offset": 23781,
+      "offset": 23685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "IntegerLiteral",
-      "offset": 24566,
+      "offset": 24470,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "IntegerLiteral",
-      "offset": 24570,
+      "offset": 24474,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mchiesa\/Documents\/Codeshaped_Projects\/BH247\/BHSmartHomeFramework\/BHSmartHomeFramework\/Models\/Device.swift",
       "kind": "IntegerLiteral",
-      "offset": 24693,
+      "offset": 24597,
       "length": 1,
       "value": "0"
     },

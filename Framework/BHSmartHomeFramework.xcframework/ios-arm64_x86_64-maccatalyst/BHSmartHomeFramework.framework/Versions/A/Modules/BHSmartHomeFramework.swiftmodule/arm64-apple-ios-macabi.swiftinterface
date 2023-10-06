@@ -363,7 +363,7 @@ public class Switch : Swift.Codable {
   public init(id: Swift.String, name: Swift.String)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class MotionSensor : Swift.Codable {
+public class MotionSensor : Swift.Codable {
   public var id: Swift.String
   public var name: Swift.String
   public var manufacturer: Swift.String?
@@ -374,6 +374,7 @@ public class Switch : Swift.Codable {
   public var armed: Swift.Bool
   public var batteryLevel: Swift.Int?
   public var isBatteryPowered: Swift.Bool
+  public init(id: Swift.String, name: Swift.String)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
