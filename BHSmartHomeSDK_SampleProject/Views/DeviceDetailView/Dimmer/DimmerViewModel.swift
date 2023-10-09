@@ -50,9 +50,9 @@ extension DimmerViewModel: GatewayObserver {
     func notify(_ notification: BHSmartHomeFramework.GatewayUpdateNotification) {
         switch notification.operation {
         case .turnOn:
-            self.isOn = true
+            isOn = true
         case .turnOff:
-            self.isOn = false
+            isOn = false
         case .dim:
             guard let dimValue = notification.data as? Int else {
                 return

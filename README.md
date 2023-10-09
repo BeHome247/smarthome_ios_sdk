@@ -373,6 +373,41 @@ GatewayManager.shared.send(
 )
 ```
 
+#### Motion Sensor
+
+A motion sensor has two states: it can either be `armed` or `disarmed`.
+
+To arm the sensor:
+
+```swift
+GatewayManager.shared.send(
+    .arm,
+    deviceId: motionSensorId
+)
+```
+
+```swift
+GatewayManager.shared.send(
+    .disarm,
+    deviceId: motionSensorId
+)
+```
+
+When a sensor is armed or disarmed, you will receive a `.arm` or `.disarm` notification:
+
+```swift
+func notify(_ notification: GatewayUpdateNotification) {
+    switch notification.operation {
+    case .arm:
+        // Sensor armed
+    case .disarm:
+        // Sensor disasrmed
+    default:
+        break
+    }
+}
+```
+
 #### Thermostat
 
 To adjust the thermostat's setpoint:

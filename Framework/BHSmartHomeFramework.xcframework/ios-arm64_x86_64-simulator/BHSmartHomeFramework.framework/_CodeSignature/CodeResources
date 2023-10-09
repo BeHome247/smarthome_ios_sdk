@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eTMNZf3MjCSEwDm/wlBabEGbORQ=
+		q+gMxkhrmVUs0cTWE4dmDZ5rPis=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		W/G/7cs258wEisV2xK6rAIuU0F4=
+		OsBRfOh2U/fPtVnJVYxXC5clhlc=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		W/G/7cs258wEisV2xK6rAIuU0F4=
+		OsBRfOh2U/fPtVnJVYxXC5clhlc=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fq6HWAFXGpXqp5sDE9Qi9NbxEXs=
+		G7tH+nNM2fBxuo/3x56PQVm/M6s=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eTMNZf3MjCSEwDm/wlBabEGbORQ=
+		q+gMxkhrmVUs0cTWE4dmDZ5rPis=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8bt+dK3+LeWqiQYDZlugB3u9tTw=
+		ePDtTL9qJC+qPG6gZFwPDGyHMuk=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8bt+dK3+LeWqiQYDZlugB3u9tTw=
+		ePDtTL9qJC+qPG6gZFwPDGyHMuk=
 		</data>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hlco9l62OyC/rpbcmmPwrM2StwY=
+		nv3qPZ3RIO7/yiKb9tgrfvx3Wtw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			irZcJmHTdiFk8eEGu/87iFWDrs5hRzPY8+3nT3zN5cA=
+			/mJJwJrk1CB8KPGW92KUACBwWXdKaApbfMfRAreDw0o=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTLzwinEEKtbzgW2jul2gCq32V18Q9SkjaodnMkQbaw=
+			RLfAUlg8yHztsO0Gh3tUBfrKZN9pKuNTJaP+/t40ewU=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTLzwinEEKtbzgW2jul2gCq32V18Q9SkjaodnMkQbaw=
+			RLfAUlg8yHztsO0Gh3tUBfrKZN9pKuNTJaP+/t40ewU=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zzd5d+5CX0kOlpqm495HVcXn9BOHQLuI0nNW0Z0jfYs=
+			thETvKR5/DI0PDbdi01VAI/m5L1LCQYv4DlB5vGOLyQ=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			irZcJmHTdiFk8eEGu/87iFWDrs5hRzPY8+3nT3zN5cA=
+			/mJJwJrk1CB8KPGW92KUACBwWXdKaApbfMfRAreDw0o=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUkWjxMK44v1XzzvRrLou2uY++5ZxuNGUSKpI6zm2dA=
+			lfMKKlreDwKjkMKf8UuDlIrp+BDQh3mKmhP/+19/oj4=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUkWjxMK44v1XzzvRrLou2uY++5ZxuNGUSKpI6zm2dA=
+			lfMKKlreDwKjkMKf8UuDlIrp+BDQh3mKmhP/+19/oj4=
 			</data>
 		</dict>
 		<key>Modules/BHSmartHomeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Frtj+hCqRItOWAMVhef6dj3Hg8YLcfvhserQ4Lfdho=
+			Y8FQiRvzOR5T/3N9DaxP7mow0dUZSWCN6IetLQiSwVM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
