@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30340BAF2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30340BAE2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework */; };
+		30340BB02B06B57400BC5E82 /* BHSmartHomeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30340BAE2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		30BF8E3D2ACF446800C8DBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BF8E212ACF446800C8DBCE /* Assets.xcassets */; };
 		30BF8E3E2ACF446800C8DBCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BF8E232ACF446800C8DBCE /* Preview Assets.xcassets */; };
 		30BF8E3F2ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E242ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift */; };
@@ -27,18 +29,16 @@
 		30BF8E4E2ACF446800C8DBCE /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */; };
 		30BF8E872AD0466300C8DBCE /* MotionSensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E862AD0466300C8DBCE /* MotionSensorView.swift */; };
 		30BF8E892AD0466C00C8DBCE /* MotionSensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF8E882AD0466C00C8DBCE /* MotionSensorViewModel.swift */; };
-		30BF8E8E2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */; };
-		30BF8E8F2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		30BF8E8C2AD051DB00C8DBCE /* Embed Frameworks */ = {
+		30340BB12B06B57400BC5E82 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				30BF8E8F2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Embed Frameworks */,
+				30340BB02B06B57400BC5E82 /* BHSmartHomeFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		30340BAE2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BHSmartHomeFramework.xcframework; sourceTree = "<group>"; };
 		30BF8E212ACF446800C8DBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30BF8E232ACF446800C8DBCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30BF8E242ACF446800C8DBCE /* BHSmartHomeSDK_SampleProjectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BHSmartHomeSDK_SampleProjectApp.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		30BF8E3C2ACF446800C8DBCE /* DevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		30BF8E862AD0466300C8DBCE /* MotionSensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorView.swift; sourceTree = "<group>"; };
 		30BF8E882AD0466C00C8DBCE /* MotionSensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorViewModel.swift; sourceTree = "<group>"; };
-		30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BHSmartHomeFramework.xcframework; path = Framework/BHSmartHomeFramework.xcframework; sourceTree = "<group>"; };
 		30DF70B22AC32C9F00290C92 /* BHSmartHomeSDK_SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHSmartHomeSDK_SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BF8E8E2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework in Frameworks */,
+				30340BAF2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 		30DF70C82AC32D3A00290C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30BF8E8D2AD0A26000C8DBCE /* BHSmartHomeFramework.xcframework */,
+				30340BAE2B06B57400BC5E82 /* BHSmartHomeFramework.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 				30DF70AE2AC32C9F00290C92 /* Sources */,
 				30DF70AF2AC32C9F00290C92 /* Frameworks */,
 				30DF70B02AC32C9F00290C92 /* Resources */,
-				30BF8E8C2AD051DB00C8DBCE /* Embed Frameworks */,
+				30340BB12B06B57400BC5E82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

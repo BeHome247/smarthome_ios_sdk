@@ -20,7 +20,7 @@ import BHSmartHomeFramework
     @Published var gateways: [Gateway] = []
 
     init() {
-        GatewayManager.shared.start(apiKey: "740a784c-62bf-11ee-8c99-0242ac120002")
+        GatewayManager.shared.start(apiKey: "8ad091f6-560a-48d9-9312-783b0dfcf9ea")
 
         GatewayManager.shared.add(observer: self)
     }
