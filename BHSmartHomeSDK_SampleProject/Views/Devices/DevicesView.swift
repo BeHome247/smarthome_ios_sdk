@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BHSmartHomeFramework
 
 struct DevicesView: View {
     @StateObject var viewModel = DevicesViewModel()
@@ -21,15 +22,15 @@ struct DevicesView: View {
                         .font(.headline)
                     Text("Device Type: \(device.type)")
                         .font(.subheadline)
-                    Text("Model: \(device.model)")
+                    Text("Model: \(device.model ?? "-")")
                         .font(.subheadline)
-                    Text("Manufacturer: \(device.manufacturer)")
+                    Text("Manufacturer: \(device.manufacturer ?? "-")")
                         .font(.subheadline)
-                    Text("Firmware: \(device.firmware)")
+                    Text("Firmware: \(device.firmware ?? "-")")
                         .font(.subheadline)
-                    Text("Hardware: \(device.hardware)")
+                    Text("Hardware: \(device.hardware ?? "-")")
                         .font(.subheadline)
-                    Text("Protocol: \(device.deviceProtocol)")
+                    Text("Protocol: \(device.deviceProtocol ?? "-")")
                         .font(.subheadline)
                 }
             }
@@ -56,25 +57,24 @@ struct DevicesView: View {
 
     @ViewBuilder
     func viewForSelectedDevice() -> some View {
-        switch viewModel.selectedDevice {
-        case .thermostat(let thermostat):
+        let selectedDevice = viewModel.selectedDevice
+        if let thermostat = selectedDevice as? Thermostat {
             let viewModel = ThermostatViewModel(thermostat: thermostat)
             ThermostatView(viewModel: viewModel)
-        case .lock(let lock):
+        } else if let lock = selectedDevice as? Lock {
             let viewModel = LockViewModel(lock: lock)
             LockView(viewModel: viewModel)
-        case .dimmer(let dimmer):
+        } else if let dimmer = selectedDevice as? Dimmer {
             let viewModel = DimmerViewModel(dimmer: dimmer)
             DimmerView(viewModel: viewModel)
-        case .lightSwitch(let lightSwitch):
+        } else if let lightSwitch = selectedDevice as? Switch {
             let viewModel = LightSwitchViewModel(lightSwitch: lightSwitch)
             LightSwitchView(viewModel: viewModel)
-        case .motionSensor(let sensor):
-            let viewModel = MotionSensorViewModel(motionSensor: sensor)
+        } else if let motionSensor = selectedDevice as? MotionSensor {
+            let viewModel = MotionSensorViewModel(motionSensor: motionSensor)
             MotionSensorView(viewModel: viewModel)
-        default:
+        } else {
             Text("View not implemented for this device.")
-
         }
     }
 }

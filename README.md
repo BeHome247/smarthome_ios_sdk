@@ -18,7 +18,7 @@ The `BHSmartHomeSDK_SampleProject` project offers a sample app demonstrating how
 
 To install the `BHSmartHomeFramework`, you must manually add it to your Xcode project. Choose your target, then drag the .xcframework file into the **Frameworks, Libraries, and Embedded Content section.**
 
-<img width="1127" alt="Screenshot 2023-10-05 at 4 48 12 PM" src="https://github.com/BeHome247/smarthome_ios_sdk/assets/1329332/8992abd4-94fc-418e-823a-e369536b11ef">
+<img width="1127" alt="Screenshot 2023-10-05 at 4 48 12 PM" src="https://github.com/BeHome247/smarthome_ios_sdk/assets/1329332/1bfff1c2-60c7-4d1e-9c09-82492de72ab7">
 
 ## Getting Started
 
@@ -186,7 +186,7 @@ func notify(_ notification: GatewayUpdateNotification) {
 
 ### Device Types
 
-`Device` is an enumeration where each case has an associated value that indicates the specific type of device. The SDK currently recognizes the following device types:
+The SDK currently recognizes the following device types:
 
 - Lock
 - Switch
@@ -201,17 +201,16 @@ Each device type is associated with unique properties:
 // Device type
 guard let selectedDevice = devices.first else { return }
 
-switch selectedDevice {
-    case .thermostat(let thermostat):
-        // Thermostat type
-    case .lock(let lock):
-        // Lock type
-    case .dimmer(let dimmer):
-        // Dimmer type
-    case .lightSwitch(let lightSwitch):
-        // Switch type
-    case .motionSensor(let motionSensor):
-        // MotionSensor type
+if let thermostat = selectedDevice as? Thermostat {
+    // Thermostat type
+} else if let lock = selectedDevice as? Lock {
+    // Lock type
+} else if let dimmer = selectedDevice as? Dimmer {
+    // Dimmer type
+} else if let lightSwitch = selectedDevice as? Switch {
+    // Switch type
+} else if let motionSensor = selectedDevice as? MotionSensor {
+    // MotionSensor type
 }
 ...
 ```
